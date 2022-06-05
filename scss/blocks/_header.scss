@@ -1,0 +1,50 @@
+.header {
+
+    &__section {
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    &__logo-wrapper {
+    }
+
+    &__logo-link {
+    }
+
+    &__logo-img {
+    }
+
+    &__nav {
+    }
+
+    &__list {
+        width: 283px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+    }
+
+    &__nav-link {
+        font-family: 'Barlow';
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        color: #83888F;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+    }
+}

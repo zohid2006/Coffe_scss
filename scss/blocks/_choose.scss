@@ -1,0 +1,121 @@
+.choose {
+    margin-bottom: 350px;
+
+    &__container {
+        width: 1240px;
+        position: relative;
+    }
+
+    &__wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+        padding-top: 100px;
+        padding-bottom: 317px;
+        color: #FEFCF7;
+        background-color: #2c343e;
+        border-radius: 10px;
+    }
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        width: 540px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        text-align: center;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__list {
+        width: 1110px;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        bottom: -151px;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+        background: #0E8784;
+        border-radius: 8px;
+        margin-right: 30px;
+    }
+
+    &__item:nth-child(1) {
+        background-image: url("./../image/coffee-bean.svg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 72px;
+    }
+
+    &__item:nth-child(2) {
+        background-image: url("./../image/prize.svg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 72px;
+    }
+
+    &__item:nth-child(3) {
+        background-image: url("./../image/car.svg");
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 83px;
+    }
+
+    &__item:last-child {
+        margin: 0;
+    }
+
+    &__item-wrapper {
+        padding: 200px 48px 48px 48px;
+    }
+
+    &__item-heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FEFCF7;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item-text {
+        width: 255px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7;
+        margin: 0;
+        padding: 0;
+    }
+}

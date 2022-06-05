@@ -1,0 +1,162 @@
+.footer {
+
+    &__section {
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #2C343E;
+        padding: 47px 85px;
+        margin-bottom: 88px;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo-img {
+    }
+
+    &__nav {
+    }
+
+    &__list {
+        width: 283px;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-left: 100px;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 33px;
+    }
+
+    &__left-link {
+        text-decoration: none;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #83888F;
+    }
+
+    &__right {
+    }
+
+    &__right-link {
+        text-decoration: none;
+    }
+
+    &__right-link:not(:last-child) {
+        margin-right: 24px;
+    }
+
+    &__right-img {
+    }
+}
+
+
+//ABOUT US
+
+//HERO
+
+.ahero {
+
+		&__section {
+            margin-bottom: 168px;
+		}
+
+		&__container {
+            background-image: url("./../image/Object.jpg");
+            border-radius: 10px;
+		}
+
+		&__right {
+            width: 530px;
+            padding: 137px 0 137px 85px;
+		}
+
+		&__heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FEFCF7;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 25px;
+		}
+
+		&__text {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FEFCF7; 
+            margin: 0;
+            padding: 0;   
+		}
+}
+
+
+//COMMITMENT
+
+.commitment {
+
+		&__section {
+            margin-bottom: 168px;
+		}
+
+		&__container {
+            display: flex;
+            align-items: center;
+            padding-left: 85px;
+            padding-right: 85px;
+		}
+
+		&__left {
+            width: 445px;
+            height: 520px;
+            background-image: url("./../image/Bitmap.jpg");
+		}
+
+		&__right {    
+            width: 540px;      
+            margin-left: 125px;
+		}
+
+		&__heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #333D4B;  
+            margin: 0;
+            padding: 0;
+            margin-bottom: 32px;
+		}
+
+		&__text {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            margin: 0;
+            padding: 0;
+		}
+}

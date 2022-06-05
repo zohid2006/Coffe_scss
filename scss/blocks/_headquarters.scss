@@ -1,0 +1,91 @@
+.headquarters {
+
+    &__section {
+        margin-bottom: 165px;
+    }
+
+    &__container {
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 72px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+        width: 285px;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 95px;
+   }
+
+    &__item-wrapper {
+        margin-bottom: 45px;
+    }
+
+    &__item:nth-child(1) &__item-wrapper:before {
+        content: "";
+        top: 0;
+        display: inline-block;
+        width: 40px;
+        height: 50px;
+        background-image: url("./../../image/Combined_1.svg");
+    }
+
+    &__item:nth-child(2) &__item-wrapper:before {
+        content: "";
+        top: 0;
+        display: inline-block;
+        width: 51px;
+        height: 50px;
+        background-image: url("./../../image/Combined_2.svg");
+    }
+
+    &__item:nth-child(3) &__item-wrapper:before {
+        content: "";
+        top: 0;
+        display: inline-block;
+        width: 49px;
+        height: 44px;
+        background-image: url("./../../image/Combined_3.svg");
+    }
+
+    &__item-heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-bottom: 25px;
+    }
+
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+}
+
+
